@@ -1,0 +1,15 @@
+.Main
+{
+    background : darkkhaki;
+}
+
+#tea, #chips
+{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title{
+    text-align: center;
+}
