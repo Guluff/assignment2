@@ -1,7 +1,6 @@
 {
   "name": "assignment2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +10,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1",
+    "express": "^4.18.2",
     "nodemon": "^2.0.20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guluff/assignment2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Guluff/assignment2/issues"
+  },
+  "homepage": "https://github.com/Guluff/assignment2#readme",
+  "devDependencies": {},
+  "description": ""
 }

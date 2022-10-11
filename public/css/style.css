@@ -13,3 +13,60 @@
 #title{
     text-align: center;
 }
+
+.navbar {
+    overflow: hidden;
+    background-color: #2c789e;
+  }
+  .navbar #a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+
+  .more {
+    float: left;
+    overflow: hidden;
+  }
+
+  .more .btn {
+    font-size: 25px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .more-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .more-menu #a {
+    float: none;
+    color: black;
+    padding: 11px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .navbar #a:hover, .more:hover .btn {
+    background-color: #555555;
+    color: white;
+  }
+  .more:hover .more-menu {
+    display: block;
+  }
+

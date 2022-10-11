@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 1010
 
 const snacks = [
   {name: "Chips", sweat_or_salty: "salty"},
@@ -15,10 +15,13 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html')
 })
 
+ 
 app.get('/Snacks/:id', (req, res) => {
   res.json(snacks[parseInt(req.params.id) - 1])
 })
 
-app.listen(port, function() {
-  console.log("Example app listening on port 3000 !")
+
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}!`)
 })
